@@ -1,5 +1,3 @@
-***edits still in progress*** 
-
 This is an implementation of Matterport's Mask RCNN model used to detect caravan footprints from OS imagery. The project was carried out using OS Imagery, and a shapefile of caravan polygons from OS core data (i.e. not publically released), however it can be replicated using other imagery (e.g. OpenStreetMap or otherwise) and your own caravan polygons. 
 
 Additions to original Mask_RCNN found under 'samples/caravans' and include:
