@@ -1,3 +1,15 @@
+***edits still in progress*** 
+
+This is an implementation of Matterport's Mask RCNN model used to detect caravan footprints from OS imagery. The project was carried out using OS Imagery, and a shapefile of caravan polygons from OS core data (i.e. not publically released), however it can be replicated using other imagery (e.g. OpenStreetMap or otherwise) and your own caravan polygons. 
+
+Additions to original Mask_RCNN found under 'samples/caravans' and include:
+* georeferencing_image_tiles.ipynb
+* making_training_data.ipynb for data preparation
+* label_masks.ipynb for labelling output masks in making_training_data.ipynb
+* caravan.py file for the 'train' file
+* accuracy_metrics.ipynb for checking model's accuracy, F1 scores and confusion matrices
+
+
 # Mask R-CNN for Object Detection and Segmentation
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
