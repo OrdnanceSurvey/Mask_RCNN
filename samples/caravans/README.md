@@ -1,4 +1,5 @@
-*edits in progress *
+*edits in progress
+
 Complete list of files for folder:
 •	georeferencing image tiles.ipynb - code to georeference images if they aren't, as they have to be georeferenced to make training data
 •	making_training_data.ipynb - code to prepare small subset images centred on caravans and corresponding masks
