@@ -1,0 +1,11 @@
+#This text file holds the command training model from the command line
+#set up your train, val, test datasets in a folder called "caravan" as such:
+	#path\to\caravan\train\images\
+	#path\to\caravan\train\labels\1\
+	#path\to\caravan\val\images\
+	#path\to\caravan\val\labels\1\
+	#path\to\caravan\test\images\
+	#path\to\caravan\test\labels\1\
+#then cd into maskrcnn-master 
+#train command below, subsitute different weights in, if you wish
+python caravan.py train dataset="path\to\caravan" weights=coco
